@@ -13,7 +13,8 @@ var FilesModel = function FilesModel(files) {
 	self.files = [];
 
 	self.addFile = function (file) {
-		self.files.push(file);
+		self.files.push(file); 
+      //what!
 	};
 	self.voteUp = function (file){
 	file.votes += 1;
